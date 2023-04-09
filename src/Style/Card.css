@@ -1,0 +1,17 @@
+.par{
+    border: 2px solid black ;
+    border-radius:3ch;
+    text-align: center;
+    width: 50%;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom, rgb(213, 213, 230), yellow);
+   
+}
+.btn{
+    background-color: rgb(160, 223, 223);
+    border-radius:.5ch;
+}
+.btn:hover{
+    background-color: #ca71a2;
+}

@@ -1,4 +1,6 @@
+//to render jsx file
 import React from 'react';
+//to access root
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
