@@ -12,7 +12,7 @@ import Destructuring from './component/Destructuring';
 import TextPrinting from './component/TextPrinting';
 import Events from './component/Events';
 import Slide from './component/slide';
-// import MapFunction from './component/MapFunction/MapFunction';
+import MapFunction from './component/MapFunction/MapFunction';
 // import Fruitscard from './component/MapFunction/Fruitscard';
 // import BSFruitsCard from './component/MapFunction/BSFruitsCard';
 // import BSFruitsCarausel from './component/MapFunction/BSFruitsCarausel';
@@ -36,8 +36,8 @@ function App() {
      {/* <Destructuring/> */}
      {/* <TextPrinting/> */}
      {/* <Events/> */}
-     <Slide/>
-     {/* <MapFunction/> */}
+     {/* <Slide/> */}
+     <MapFunction/>
      {/* <Fruitscard/> */}
      {/* <BSFruitsCard/> */}
      {/* <BSFruitsCarausel/> */}
