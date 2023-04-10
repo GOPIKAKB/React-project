@@ -14,7 +14,7 @@ import Events from './component/Events';
 import Slide from './component/slide';
 import MapFunction from './component/MapFunction/MapFunction';
 import Fruitscard from './component/MapFunction/Fruitscard';
-// import BSFruitsCard from './component/MapFunction/BSFruitsCard';
+import BSFruitsCard from './component/MapFunction/BSFruitsCard';
 // import BSFruitsCarausel from './component/MapFunction/BSFruitsCarausel';
 // import BSTableNew from './component/MapFunction/BSTableNew';
 // import Component from './component/Component';
@@ -38,8 +38,8 @@ function App() {
      {/* <Events/> */}
      {/* <Slide/> */}
      {/* <MapFunction/> */}
-     <Fruitscard/>
-     {/* <BSFruitsCard/> */}
+     {/* <Fruitscard/> */}
+     <BSFruitsCard/>
      {/* <BSFruitsCarausel/> */}
      {/* <BSTableNew/> */}
     </div> 
