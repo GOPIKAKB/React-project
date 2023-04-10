@@ -15,7 +15,7 @@ import Slide from './component/slide';
 import MapFunction from './component/MapFunction/MapFunction';
 import Fruitscard from './component/MapFunction/Fruitscard';
 import BSFruitsCard from './component/MapFunction/BSFruitsCard';
-// import BSFruitsCarausel from './component/MapFunction/BSFruitsCarausel';
+import BSFruitsCarausel from './component/MapFunction/BSFruitsCarausel';
 // import BSTableNew from './component/MapFunction/BSTableNew';
 // import Component from './component/Component';
 // import Component3 from './component/Component3';
@@ -39,8 +39,8 @@ function App() {
      {/* <Slide/> */}
      {/* <MapFunction/> */}
      {/* <Fruitscard/> */}
-     <BSFruitsCard/>
-     {/* <BSFruitsCarausel/> */}
+     {/* <BSFruitsCard/> */}
+     <BSFruitsCarausel/>
      {/* <BSTableNew/> */}
     </div> 
 
