@@ -17,6 +17,10 @@ import Fruitscard from './component/MapFunction/Fruitscard';
 import BSFruitsCard from './component/MapFunction/BSFruitsCard';
 import BSFruitsCarausel from './component/MapFunction/BSFruitsCarausel';
 import BSTableNew from './component/MapFunction/BSTableNew';
+import HooksBeging from './component/Hooks.jsx/HooksBeging';
+import UseState from './component/Hooks.jsx/UseState';
+import Counterwithusestate from './component/Hooks.jsx/Counterwithusestate';
+import WatchCard from './component/Hooks.jsx/WatchCard';
 // import Component from './component/Component';
 // import Component3 from './component/Component3';
 
@@ -41,7 +45,11 @@ function App() {
      {/* <Fruitscard/> */}
      {/* <BSFruitsCard/> */}
      {/* <BSFruitsCarausel/> */}
-     <BSTableNew/>
+     {/* <BSTableNew/> */}
+     {/* <HooksBeging/> */}
+     {/* <UseState/> */}
+     {/* <Counterwithusestate/> */}
+     <WatchCard/>
     </div> 
 
   );

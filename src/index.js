@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // strictmode will show us errors in two ways.1-in terminal and 2- in console. console is displayed two times after react using
   <React.StrictMode>
     <App />
   </React.StrictMode>
