@@ -17,7 +17,7 @@ function HooksBeging() {
     //     console.log(color);
     // }
 
-const [color,setColor]=useState("green")// here color is the stste name, and setColor is the name of the function that is used to chnage the function .the function name can be anything, normally we use this format, and need to be camalcase. "green" is the initial value of state.
+const [color,setColor]=useState("green")// here color is the stste name, and setColor is the name of the function that is used to chnage the state .the function name can be anything, normally we use this format, and need to be camalcase. "green" is the initial value of state.
 const changeColorOnClick=()=>{
     setColor("red") // to change the value of state, we pass the new value to setColor function.
 }

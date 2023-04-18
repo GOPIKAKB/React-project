@@ -21,6 +21,8 @@ import HooksBeging from './component/Hooks.jsx/HooksBeging';
 import UseState from './component/Hooks.jsx/UseState';
 import Counterwithusestate from './component/Hooks.jsx/Counterwithusestate';
 import WatchCard from './component/Hooks.jsx/WatchCard';
+import ToggleButton from './component/Hooks.jsx/ToggleButton';
+import SlideInernal from './component/SlideInernal';
 // import Component from './component/Component';
 // import Component3 from './component/Component3';
 
@@ -36,7 +38,7 @@ function App() {
      <BSCarousels/>
      <BSForm/>
      <BSTable/>*/}
-     {/* <KeralaTourism/> */}
+     <KeralaTourism/>
      {/* <Destructuring/> */}
      {/* <TextPrinting/> */}
      {/* <Events/> */}
@@ -49,7 +51,9 @@ function App() {
      {/* <HooksBeging/> */}
      {/* <UseState/> */}
      {/* <Counterwithusestate/> */}
-     <WatchCard/>
+     {/* <WatchCard/>
+     <ToggleButton/> */}
+     <SlideInernal/>
     </div> 
 
   );
