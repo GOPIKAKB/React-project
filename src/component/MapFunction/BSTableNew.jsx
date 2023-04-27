@@ -18,7 +18,7 @@ function BSTableNew() {
       <Table responsive bordered className='w-75'>
         <thead>
           <tr>
-            {
+            { 
               headerData.map((header) => {
                 return (
                   <th>{header}</th>
