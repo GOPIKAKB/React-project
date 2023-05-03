@@ -46,6 +46,12 @@ import UEMessage from './component/UseEffect/UEMessage';
 import UEMultiplication from './component/UseEffect/UEMultiplication';
 import SPBiginig from './component/SpreadOperator/SPBiginig';
 import District from './component/TerinaryOporator/District';
+import APIBegining from './component/API Integration/APIBegining';
+import APIinte2 from './component/API Integration/APIinte2';
+import APIint3 from './component/API Integration/APIint3';
+import APIint4 from './component/API Integration/APIint4';
+import APIint5 from './component/API Integration/APIint5';
+import APIint6 from './component/API Integration/APIint6';
 // import Component from './component/Component';
 // import Component3 from './component/Component3';
 
@@ -61,7 +67,7 @@ function App() {
      <BSCarousels/>
      <BSForm/>
      <BSTable/>*/}
-     {/* <KeralaTourism/> */}
+     <KeralaTourism/>
      {/* <Destructuring/> */}
      {/* <Destructuring2/> */}
      {/* <TextPrinting/> */}
@@ -99,7 +105,13 @@ function App() {
     {/* <UEMessage/> */}
     {/* <UEMultiplication/> */}
     {/* <SPBiginig/> */}
-    <District/>
+    {/* <District/> */}
+    {/* <APIBegining/> */}
+    {/* <APIinte2/> */}
+    {/* <APIint3/> */}
+    {/* <APIint4/> */}
+    {/* <APIint5/> */}
+    {/* <APIint6/> */}
     </div> 
 
   );
