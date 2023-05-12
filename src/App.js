@@ -52,6 +52,11 @@ import APIint3 from './component/API Integration/APIint3';
 import APIint4 from './component/API Integration/APIint4';
 import APIint5 from './component/API Integration/APIint5';
 import APIint6 from './component/API Integration/APIint6';
+import MainComp from './component/UseContest/MainComp';
+import CurrentTime from './component/CurrentTime';
+import CurrentTime1 from './component/CurrentTime1';
+import Input1 from './component/InputHandling/Input1';
+import Inputhandling2 from './component/InputHandling/Inputhandling2';
 // import Component from './component/Component';
 // import Component3 from './component/Component3';
 
@@ -67,7 +72,7 @@ function App() {
      <BSCarousels/>
      <BSForm/>
      <BSTable/>*/}
-     <KeralaTourism/>
+     {/* <KeralaTourism/> */}
      {/* <Destructuring/> */}
      {/* <Destructuring2/> */}
      {/* <TextPrinting/> */}
@@ -112,6 +117,11 @@ function App() {
     {/* <APIint4/> */}
     {/* <APIint5/> */}
     {/* <APIint6/> */}
+    {/* <MainComp/> */}
+    {/* <CurrentTime/>
+    <CurrentTime1/> */}
+    {/* <Input1/> */}
+    <Inputhandling2/>
     </div> 
 
   );
