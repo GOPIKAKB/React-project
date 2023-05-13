@@ -3,9 +3,9 @@ import React, { useState } from 'react'
 function ChangeTheme() {
   const [theme, setTheme] = useState('light')
   const hangeTheme = () => {
+    //we can also write the syntax as below
     setTheme((pre) => {
-      return (pre === 'light' ? 'dark' : 'light')
-    })
+    return pre === 'light' ? 'dark' : 'light'})
   }
   return (
     <div style={{ backgroundColor: theme === 'light' ? '#0a0a68' : '#4d4ded', width: '50%', height: '300px', textAlign: 'center' }}>
@@ -18,3 +18,8 @@ function ChangeTheme() {
 }
 
 export default ChangeTheme
+
+// const [state,steState]=useState(0)
+// steState((pre)=>{
+//   return()
+// })

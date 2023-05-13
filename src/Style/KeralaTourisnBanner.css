@@ -1,0 +1,72 @@
+.parent {
+  background: url(https://cdn.getyourguide.com/tf/assets/static/newsletter-signup/newsletter-background.jpg);
+  height: 500px;
+  width: 100%;
+}
+
+.search-box {
+  display: inline-block;
+  width: 45%;
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  height:50px
+}
+
+
+.text-container {
+  padding-top: 50px;
+  margin-left: 20px;
+}
+
+.top-text {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.bottom-text {
+
+  font-size: 80px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.serchparent {
+  background-color: #fff;
+  border-radius: 25px;
+  height: 50px;
+  font-size: large;
+  padding-left: 30px;
+  padding-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.search {
+  background-color: blue;
+  color: #fff;
+  width: 70px;
+  border-radius: 20px;
+  text-align: center;
+  height: 90%;
+  margin-right: 10px;
+  padding-top: 3px;
+}
+.activity{
+border: solid 1px #dee2e6;
+width: 12%;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+font-size: small;
+}
+.activity:hover{
+  background-color: #dee2e6;
+}

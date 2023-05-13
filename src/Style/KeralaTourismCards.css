@@ -1,0 +1,13 @@
+.activity{
+    border: solid 1px #dee2e6;
+    width: 12%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: small;
+    }
+    .activity:hover{
+      background-color: #dee2e6;
+    }
